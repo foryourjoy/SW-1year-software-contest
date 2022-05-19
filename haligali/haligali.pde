@@ -42,7 +42,7 @@ void draw() {
     } else {
       t2 = int(random(1, 4));
       n2 = int(random(1, 6));
-      card(t2, n2, x+300);//LOVE YOU love you love you
+      card(t2, n2, x+300);
       di = 1;
     }
     eventTime += 1000;
